@@ -23,7 +23,7 @@ const Home = () => {
                 setInput("")
             }
 
-    }
+    } //defining and sorting tasks that get listed and deleted //
     const deleteTask = (id) => {
         let filteredTask = [...tasks].filter( task => task.id !== id);
         setTasks(filteredTask)
